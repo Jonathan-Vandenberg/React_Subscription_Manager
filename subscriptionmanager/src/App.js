@@ -1,7 +1,5 @@
-import Card from "./components/UI/Card"
-
 const App = () => {
-  return <Card />
+  return <p>lets go</p>
 }
 
 export default App

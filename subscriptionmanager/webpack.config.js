@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
   entry: {
-    app: "./src/app.js",
+    index: "./src/index.js",
   },
   output: {
     filename: "[name].[contenthash].js", // contenthash for version support in cache
